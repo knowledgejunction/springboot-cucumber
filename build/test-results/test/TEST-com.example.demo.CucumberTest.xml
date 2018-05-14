@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.CucumberTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Surajs-MBP" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: the poop can be retrieved
+In mockorg.springframework.test.web.servlet.MockMvc@433e8242
+In And
+
+  Scenario: client makes call to GET /poop      ?[90m# app.feature:2?[0m
+    ?[32mWhen ?[0m?[32mthe client calls /poop?[0m                 ?[90m# MyStepdefs.java:16?[0m
+    ?[32mThen ?[0m?[32mthe client receives status code of ?[0m?[32m?[1m200?[0m ?[90m# MyStepdefs.java:8?[0m
+    ?[32mAnd ?[0m?[32mthe client receives server version poop?[0m ?[90m# MyStepdefs.java:12?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m0.111s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
